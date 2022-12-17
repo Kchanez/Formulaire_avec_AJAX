@@ -1,0 +1,106 @@
+body
+{
+    margin: 50px auto auto;
+    height: auto;
+}
+
+.container
+{
+    margin-top: 10%;
+ }
+
+/* partie header */ 
+.item1
+{
+	font-size: 2em;
+	flex-grow: 8;
+}
+
+.item2
+{
+	display: flex;
+	flex-grow: 2;
+	justify-content: flex-end;
+}
+.item1 > p , .item2 > h1 
+{
+	margin-top: 0px;
+}
+.grid-container 
+{
+	display: flex;
+	font-weight: bold;
+	color: #33009a;
+}
+/* partie nav bare */
+
+.nav-bar
+{
+    background-color: #f8f9fa;
+    min-height: auto;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    box-shadow: 5px 10px 18px #f8f9fa; 
+}
+.hr1 , .hr2
+{
+	margin: 0px;
+	border: none;
+}
+.hr1
+{
+	background: #f4f3f2;
+	height: 3px;
+}
+.hr2
+{
+	background: #c8c5c2;
+	height: 1px;
+}
+.p1
+{
+	font-size: 25px;
+	display: flex;
+	flex-grow: 1;
+}
+.p2
+{
+	font-size: 20px;
+	display: flex;
+	flex-grow: 9;
+}
+
+.p1 , .p2 
+{
+	margin: 15px 0px;
+}
+/* partie Menu */ 
+.menu 
+{
+	font-size: 25px;
+}
+
+/* partie table  */
+.nav-list
+{
+	font-size: 15px;
+	display: grid;
+	grid-template-columns: auto;
+	width: auto;
+	text-align: justify;
+	min-height: 45px;
+	background-color: #343a40;
+	color: white;
+	padding-left: 5px;
+}
+/*Partie Form*/
+
+.container  .Sous_container 
+{
+	width: 50%;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
